@@ -1,0 +1,61 @@
+/* Estilo adicional para ocupar a altura total da página */
+body {
+    display: flex;
+    width: 100%;
+}
+
+/* Estilo para a navegação lateral */
+#sidebar-wrapper {
+    min-height: 100vh;
+    max-width: 100%;
+    width: 270px;
+    background: linear-gradient(200deg, #2abb43 0%, rgba(103, 248, 212, 0.78) 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    color: black;
+    font-weight: bold;
+}
+
+#sidebar-wrapper p {
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+}
+
+#sidebar-wrapper .sidebar-heading {
+    padding: 20px;
+    text-align: left;
+    
+}
+
+.caixaSelecao{
+    width: 250px;
+}
+
+.pergunta{
+    width: 500px;
+
+}
+
+nav {
+    margin-right: 20px;
+}
+
+.page-title{
+    margin-bottom: 20px;
+}
+
+input{
+    border-color: #b52626;
+}
+
+.limparRankingBtn{
+    width: 140px;
+    height: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.divLimpRkn{
+    text-align: end;
+    
+}
